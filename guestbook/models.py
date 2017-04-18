@@ -10,11 +10,10 @@ class Greeting(ndb.Model):
     '''Models an individual Guestbook entry.'''
     author = ndb.UserProperty()
     content = ndb.StringProperty(indexed=False)
-<<<<<<< HEAD
+
     date = ndb.DateTimeProperty(auto_now_add=True)
 
 class newmodel ():
     pass
-=======
     date = ndb.DateTimeProperty(auto_now_add=True)
->>>>>>> 3c3f928... sdf
+    date = ndb.DateTimeProperty(auto_now_add=True)
