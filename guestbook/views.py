@@ -50,3 +50,6 @@ def sign_post(request):
         greeting.put()
         return HttpResponseRedirect('/?' + urllib.urlencode({'guestbook_name': guestbook_name}))
     return HttpResponseRedirect('/')
+
+class shkjdh ():
+    pass
