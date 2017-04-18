@@ -14,6 +14,4 @@ class Greeting(ndb.Model):
     date = ndb.DateTimeProperty(auto_now_add=True)
 
 class newmodel ():
-    pass
-    date = ndb.DateTimeProperty(auto_now_add=True)
     date = ndb.DateTimeProperty(auto_now_add=True)
